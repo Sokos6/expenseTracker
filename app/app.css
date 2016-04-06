@@ -1,0 +1,40 @@
+body {
+  font-family:'Lato', sans-serif;
+  font-weight: 100;  
+  color:#f9f9f9;
+  background: #333;
+  height: 100%;
+
+}
+.bg-image {
+  position: fixed;
+  top: 0;
+  left:0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  background: #333;
+  opacity: 0.3;
+}
+h1 {
+  font-size: 2.5em;
+  font-weight: 100;
+  margin-left: 5%;
+
+}
+
+.menu {
+  list-style: none;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+  position: absolute;
+  bottom: 1em;
+}
+.menu li {
+  margin: 2em 1em;
+}
+.menu a {
+  color: #f9f9f9;
+  font-size: 2em;
+  text-decoration: none;
+}
